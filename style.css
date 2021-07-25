@@ -4,54 +4,58 @@
 
 /* Universal designs */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+::selection {
+  color: #fff;
+  background-color: #ed563b;
 }
 /*------------------
  header style part 
  -----------------*/
- .logo-header{
-    color: #fff;
-    font-size: 32px;
-    font-weight: 800;
-    text-transform: uppercase;
- }
- .logo-header span{
-      color: #ed563b;
- }
+.logo-header {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.logo-header span {
+  color: #ed563b;
+}
 
- /* Banner section work from here */
- .main-banner {
+/* Banner section work from here */
+.main-banner {
   position: relative;
 }
 
 #bg-video {
-    min-width: 100%;
-    min-height: 100vh;
-    max-width: 100%;
-    max-height: 100vh;
-    object-fit: cover;
-    z-index: -1;
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
 }
 
 #bg-video::-webkit-media-controls {
-    display: none !important;
+  display: none !important;
 }
 
 .video-overlay {
-    position: absolute;
-    background-color: rgba(35,45,57,0.8);
-    top: 0;
-    left: 0;
-    bottom: 7px;
-    width: 100%;
+  position: absolute;
+  background-color: rgba(35, 45, 57, 0.8);
+  top: 0;
+  left: 0;
+  bottom: 7px;
+  width: 100%;
 }
 
 .main-banner .caption {
@@ -60,7 +64,7 @@ a{
   width: 80%;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .main-banner .caption h3 {
@@ -88,44 +92,44 @@ a{
   font-weight: 900;
 }
 /* programme section work from here */
-.section-heading{
-    text-align: center;
-    margin-top: 140px;
-    margin-bottom: 80px;
+.section-heading {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 80px;
 }
 .section-heading h2 {
-    font-size: 40px;
-    font-weight: 800;
-    color: #232d39;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  
-  .section-heading h2 span {
-    font-style: normal;
-    color: #ed563b;
-  }
-  
-  .section-heading img {
-    margin: 20px auto;
-  }
+  font-size: 40px;
+  font-weight: 800;
+  color: #232d39;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-heading h2 span {
+  font-style: normal;
+  color: #ed563b;
+}
+
+.section-heading img {
+  margin: 20px auto;
+}
 /* feature section css */
-.details-feature img{
-    width: 244px;
-    margin-right: 10px;
+.details-feature img {
+  width: 244px;
+  margin-right: 10px;
 }
-.details-feature{
-    margin-bottom: 50px;
+.details-feature {
+  margin-bottom: 50px;
 }
-.feature-details h2{
-    margin-top: 0;
-    margin-bottom: 7px;
-    letter-spacing: 0.25px;
-    color: #232d39;
-    font-size: px;
-    font-weight: 600;
+.feature-details h2 {
+  margin-top: 0;
+  margin-bottom: 7px;
+  letter-spacing: 0.25px;
+  color: #232d39;
+  font-size: px;
+  font-weight: 600;
 }
 /* Call to action section design */
 #call-to-action {
@@ -135,6 +139,7 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  margin-top: 50px;
 }
 
 .cta-content h2 {
@@ -154,4 +159,9 @@ a{
   font-size: 20px;
   color: #fff;
   margin: 15px 0px 25px 0px;
+}
+/* classes section design */
+.section-heading h2 em {
+  font-style: normal;
+  color: #ed563b;
 }
