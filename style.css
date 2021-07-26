@@ -309,7 +309,7 @@ contact
 
 #contact-us .contact-form {
   padding: 80px;
-  background-image: url(../images/contact-bg.jpg);
+  background-image: url(images/contact-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -427,4 +427,23 @@ footer p{
 }
 .social-menu ul li:nth-child(4) a:hover {
   background-color: #ff0000;
+}
+
+
+/* ----------
+responsive
+------------- */
+@media only screen and (max-width:688px){
+  .open-accordion{
+    font-size: 23px;
+  }
+  .accordion-text img{
+    width: 100%;
+  }
+  #schedule table tr td{
+    font-size: 13px;
+  }
+  #contact-us .contact-form #contact{
+    padding: 10px;
+  }
 }
